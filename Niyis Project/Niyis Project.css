@@ -1,0 +1,108 @@
+/* Reset styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background for project .png');
+    background-size: cover;
+    color: white;
+    }
+    /* Navigation Bar */
+    nav {
+    background-color: #000000;
+    padding: 10px;
+    }
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    nav ul li {
+    display: inline;
+    margin-right: 10px;
+    }
+    nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    }
+    /* Hero Section */
+    .hero {
+    background-image: url('niyis project white wall.jpg');
+    background-size: cover;
+    color: #2e0e0e;
+    padding: 100px;
+    text-align: center;
+    }
+    /* About Me Section */
+    .about {
+    padding: 50px;
+    }
+    /* Projects Section */
+    .projects {
+
+    padding: 50px;
+    }
+
+    .project-content{
+        width: 450px;
+        overflow: hidden;
+        height: 300px;
+        background-color: rgb(0, 0, 0);
+        padding: 10px;
+        border-radius: 10%;
+        display: grid;
+
+    }
+
+    .project-content-img{
+        width: 450px;
+        border-radius: 10%;
+        text-decoration: none;
+        color: #000000;
+    }
+.project-content-text{
+    text-decoration: none;
+        color: #000000;
+}
+    .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: 20px;
+    }
+    /* Contact Section */
+    .contact {
+    padding: 50px;
+    }
+    .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    }
+    input, textarea, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #750404;
+    }
+    button {
+    background-color: #4d1414;
+    color: #fff;
+    cursor: pointer;
+    }
+
+    footer{
+        display: grid;
+        align-items: flex-end;
+    }
+
+    .hire_me{
+        color: black;
+        text-decoration: none;
+        text-align: right;
+        color: red;
+        font-size: 16px;
+        font-weight: 500;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding: 3px;
+        text-wrap: wrap;
+    }
